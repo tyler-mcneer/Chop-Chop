@@ -1,0 +1,57 @@
+# Unreal Engine 5 .gitignore
+
+# Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Project files to ignore
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.VC.db
+*.VC.opendb
+*.log
+*.user
+*.userprefs
+
+# Backup and autosave
+*_Backup*/
+*_Autosave*/
+
+# Crash reports
+CrashReportClient/
+
+# Compiled data
+*.pdb
+*.exe
+*.dll
+*.app
+*.dylib
+*.so
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Visual Studio Code
+.vscode/
+
+# Rider IDE
+.idea/
+
+# Ignore local config overrides
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+
+# Ignore Unreal Engine cache folders
+Engine/DerivedDataCache/
+Engine/Intermediate/
+Engine/Saved/
+
+# Ignore large asset caches
+*.umap.temp
+*.uasset.temp
